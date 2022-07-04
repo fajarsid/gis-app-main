@@ -1,0 +1,45 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-image: linear-gradient(180deg, rgb(11, 125, 255), rgb(255, 255, 255));
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.maps_con {
+	margin-top: 2%;
+	margin-bottom: 5%;
+	margin-left: 4%;
+	margin-right: 5%;
+}
+
+.featureMap {
+	height: 600px;
+  }
+
+.btn_con {
+	width: 20%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: right;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
